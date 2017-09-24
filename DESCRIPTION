@@ -1,0 +1,12 @@
+Package: RTutorPollutionReductions
+Type: Package
+Title: RTutor problem set Pollution Reductions from Renewable Energies
+Version: 0.1
+Date: 2017-24-09
+Author: Anna Sophie Barann
+Maintainer: Anna Sophie Barann <anna.barann@uni-ulm.de>
+Description: RTutor problem set Pollution Reductions from Renewable Energies
+License: 
+	Problem set content: Creative Commons (CC BY-SA)
+	Package code: GPL >= 2.0
+Depends: RTutor, dplyr, ggplot2, lubridate, reshape2, stargazer, lfe, sandwich, lemon, microbenchmark, GenKern, gridExtra

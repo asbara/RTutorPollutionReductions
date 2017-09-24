@@ -1,0 +1,68 @@
+orgvar | var | descr
+datetime | datetime | Date (year-month-day) and time
+date | date | Date (year-month-day)
+year | year | Year
+month | month | Month of the year
+day | day | Day of the month
+hour | hour | Hour of the day; 1 corresponds to the hour from midnight until one in the morning
+wind | wind | Aggregate hourly generation from ERCOT wind turbines [MWh]
+wind_avg | wind_avg | Average hourly generation from ERCOT wind turbines [MWh]
+other | other | Average share of electricity generation from other fuel types in hourly total ERCOT generation
+hydro | hydro | Average share of electricity generation from hydropower in hourly total ERCOT generation
+windturbine | windturbine | Average share of electricity generation from windturbines in hourly total ERCOT generation
+nuclear | nuclear | Average share of electricity generation from nuclear power in hourly total ERCOT generation
+coal | coal | Average share of electricity generation from coal in hourly total ERCOT generation
+gas | gas | Average share of electricity generation from gas in hourly total ERCOT generation
+fueltype | fueltype | Fuel type
+share | share | Average share of electricity generation from fuel type in hourly total ERCOT generation
+tx_co2 | tx_co2 | Aggregate hourly CO2 emission from ERCOT fossil fuel-fired generators [tons]
+tx_nox | tx_nox | Aggregate hourly NOx emission from ERCOT fossil fuel-fired generators [lbs]
+tx_so2 | tx_so2 | Aggregate hourly SO2 emission from ERCOT fossil fuel-fired generators [lbs]
+load | load | Hourly electricity demand in ERCOT market [MWh]
+load2 | load2 | Hourly electricity demand in ERCOT market squared [MWh淫
+load3 | load3 | Hourly electricity demand in ERCOT market cubed [MWh設 
+spp_load | spp_load | Hourly electricity demand in SPP market [MWh]
+spp_load2 | spp_load2 | Hourly electricity demand in SPP market squared [MWh淫
+spp_load3 | spp_load3 | Hourly electricity demand in SPP market cubed [MWh設
+Wind | Wind | Average ERCOT wind production
+Load | Load | Average ERCOT electricity demand
+type | type | Type of generation
+mean | mean | Mean of load or wind in hour of the day over whole observation period
+day_fe | day_fe | Dummy variable for the daily fixed effect (year-month-day)
+hour_fe | hour_fe | Dummy variable for the hourly fixed effect (hour-weekday-month-year)
+wind_tr | wind_tr | Deseasonalised aggregate hourly generation from ERCOT wind turbines [MWh]
+wind2_tr | wind2_tr | Deseasonalised aggregate hourly generation from ERCOT wind turbines squared [MWh淫
+wind3_tr | wind3_tr | Deseasonalised aggregate hourly generation from ERCOT wind turbines cubed [MWh設
+wind_load_tr | wind_load_tr | Wind x load (deseasonalised)
+wind_load2_tr | wind_load2_tr | Wind x load2 (deseasonalised)
+wind_load3_tr | wind_load3_tr | Wind x load3 (deseasonalised)
+wind2_load_tr | wind2_load_tr | Wind2 x load (deseasonalised)
+wind2_load2_tr | wind2_load2_tr | Wind2 x load2 (deseasonalised)
+wind2_load3_tr | wind2_load3_tr | Wind2 x load3 (deseasonalised)
+wind3_load_tr | wind3_load_tr | Wind3 x load (deseasonalised)
+wind3_load2_tr | wind3_load2_tr | Wind3 x load2 (deseasonalised)
+wind3_load3_tr | wind3_load3_tr | Wind3 x load3 (deseasonalised)
+tx_co2_tr | tx_co2_tr | Deseasonalised aggregate hourly CO2 emission from ERCOT fossil fuel-fired generators [tons]
+tx_nox_tr | tx_nox_tr | Deseasonalised aggregate hourly NOx emission from ERCOT fossil fuel-fired generators [lbs]
+tx_so2_tr | tx_so2_tr | Deseasonalised aggregate hourly SO2 emission from ERCOT fossil fuel-fired generators [lbs]
+txok_co2_tr | txok_co2_tr | Deseasonalised aggregate hourly CO2 emission from ERCOT and SPP fossil fuel-fired generators [tons]
+txok_nox_tr | txok_nox_tr | Deseasonalised aggregate hourly NOx emission from ERCOT and SPP fossil fuel-fired generators [lbs]
+txok_so2_tr | txok_so2_tr | Deseasonalised aggregate hourly SO2 emission from ERCOT and SPP fossil fuel-fired generators [lbs]
+load_tr | load_tr | Deseasonalised hourly electricity demand in ERCOT market [MWh]
+load2_tr | load2_tr | Deseasonalised hourly electricity demand in ERCOT market squared [MWh淫
+load3_tr | load3_tr | Deseasonalised hourly electricity demand in ERCOT market cubed [MWh設
+spp_load_tr | spp_load_tr | Deseasonalised hourly electricity demand in SPP market [MWh]
+spp_load2_tr | spp_load2_tr | Deseasonalised hourly electricity demand in SPP market squared [MWh淫
+spp_load3_tr | spp_load3_tr | Deseasonalised hourly electricity demand in SPP market cubed [MWh設
+txok_gload_coal_tr | txok_gload_coal_tr | Deseasonalised aggregate hourly gross generation from ERCOT and SPP coal-fired generators [MWh]
+txok_gload_cc_tr | txok_gload_cc_tr | Deseasonalised aggregate hourly gross generation from ERCOT and SPP combined cycle generators [MWh]
+txok_gload_gt_tr | txok_gload_gt_tr | Deseasonalised aggregate hourly gross generation from ERCOT and SPP gas turbines [MWh]
+cap_factor | cap_factor | Hourly capacity factor for ERCOT wind turbines
+K | K | Level of installed ERCOT capacity [MW]
+AEA | AEA | Average emissions avoided; [tons/MWh] for CO2, [lbs/MWh] for NOx and SO2
+solar | solar | Aggregate hourly generation from ERCOT solar PV panels [MWh]
+solar_cap_factor | solar_cap_factor | Hourly capacity factor for ERCOT solar PV panels
+solar_avg | solar_avg | Daily average solar capacity factor for ERCOT solar PV panels
+demand_avg | demand_avg | Average hourly ERCOT demand [MWh]
+aeb_low | aeb_low | Average external benefits for the low-impact scenario [$/MWh]
+aeb_high | aeb_high | Average external benefits for the high-impact scenario [$/MWh]
